@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Брондау</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <H1>mw</H1>
+                <ul class="nav-list">
+                    <li><a href="index.html">Басты бет</a></li>
+                    <li><a href="about.html">Біз туралы</a></li>
+                    <li><a href="contact.html">Брондау</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">&#9776;</div>
+        </nav>
+    </header>
+    <main>
+        <marquee behavior="" direction="" style="font-size: 45px;">Брондау бөлігі</marquee>
+        <section class="booking">
+            <h2>Брондау формасы:</h2>
+            <form>
+                <label for="name">Аты-жөні:</label>
+                <input type="text" id="name" name="name" placeholder="Құдайберген Аяулым"
+                    pattern="[A-Za-zА-Яа-яӘәІіҢңҒғҮүҰұҚқӨөҺһ ]+" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="ayaulymkudaibergen10@gmail.com"
+                    required><br><br>
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+7 777 023 44 52" pattern="[0-9+ ]{10,15}"
+                    required>
+                <label for="destination">Саяхат бағыты:</label>
+                <select name="destination" id="destination">
+                    <option value="" disabled selected>Таңдаңыз</option>
+                    <option>Париж</option>
+                    <option>Токио</option>
+                    <option>Астана</option>
+                    <option>Ханой</option>
+                </select>
+
+                <label for="date">Саяхат күні:</label><br>
+                <input type="date" id="date" name="date" required><br><br>
+
+                <button type="submit">Брондау</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-info">
+            <h3>mw</h3>
+
+            <p> +7 777 023 44 52</p>
+            <p> ayaulymkudaibergen10@gmail.com</p>
+
+            <p class="socials">
+                <a href="https://instagram.com/your_inst" target="_blank">Instagram</a> |
+                <a href="https://t.me/your_tg" target="_blank">Telegram</a> |
+                <a href="https://tiktok.com/@your_tt" target="_blank">TikTok</a>
+            </p>
+            <p class="year">&copy; 2026</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
